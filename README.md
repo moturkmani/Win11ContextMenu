@@ -10,7 +10,7 @@ A simple Python GUI tool that lets you toggle between the **classic Windows 10-s
 - 🪟 Uses `windows.ico` for both the **EXE file icon** and the **GUI window icon**.
 
 ## 📸 Screenshot
-*(Add your screenshot here — e.g. `![screenshot](screenshot.png)`)*
+<img width="448" height="326" alt="{C09CBFE9-43DD-42BD-B0B0-A1E893441A62}" src="https://github.com/user-attachments/assets/7674aaca-8584-4e15-a252-38235d7866fc" />
 
 ## 🚀 Usage
 1. Make sure you have **Python 3.x** installed.  
