@@ -7,7 +7,7 @@ A simple Python GUI tool that lets you toggle between the **classic Windows 10-s
 - ⚡ Built-in PowerShell execution with real-time output logging.  
 - 🛡️ Auto-elevates with Administrator privileges when required.  
 - 🎨 Modern Tkinter-based GUI with dark theme.  
-- 🪟 Uses `windows.ico` for both the **EXE file icon** and the **GUI window icon**.
+- Uses `windows.ico` for both the **EXE file icon** and the **GUI window icon**.
 
 ## 📸 Screenshot
 <img width="448" height="326" alt="{C09CBFE9-43DD-42BD-B0B0-A1E893441A62}" src="https://github.com/user-attachments/assets/7674aaca-8584-4e15-a252-38235d7866fc" />
@@ -30,20 +30,20 @@ The resulting EXE will not require Python to be installed.
 
 ## ⚠️ Notes
 
-This tool modifies the Windows Registry to apply changes.
-Admin rights are required — the app will prompt and auto-relaunch with elevated privileges.
-File Explorer will be restarted when applying changes.
-Changes are safe and fully reversible.
+This tool modifies the Windows Registry to apply changes.  
+Admin rights are required — the app will prompt and auto-relaunch with elevated privileges.  
+File Explorer will be restarted when applying changes.  
+Changes are safe and fully reversible.  
 
 ## 🖥️ Requirements
 
-Windows 11
-Python 3.x
+Windows 11  
+Python 3.x  
 Administrator access
 
 Python Standard Libraries Used
-tkinter (GUI)
-subprocess (run PowerShell)
-ctypes (admin check)
-sys, os (path + process handling)
-(No external packages required.)
+tkinter (GUI)  
+subprocess (run PowerShell)  
+ctypes (admin check)  
+sys, os (path + process handling)  
+(No external packages required.)  
