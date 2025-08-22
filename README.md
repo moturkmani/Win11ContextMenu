@@ -25,7 +25,7 @@ A simple Python GUI tool that lets you toggle between the **classic Windows 10-s
 To create a standalone EXE with the icon embedded, run:
 ```bash
 pyinstaller --onefile --noconsole --icon=windows.ico --add-data "windows.ico;." classicmenu.py
-##
+```
 --icon=windows.ico → sets the EXE’s file icon (desktop/Explorer).
 --add-data "windows.ico;." → bundles the icon so the Tkinter window also uses it at runtime.
 The resulting EXE will not require Python to be installed.
